@@ -1,16 +1,28 @@
 h1{
   text-align: center;
-  font-family: arial;
+  font-family: 'Alfa Slab One', cursive;
 }
-div{
+.deck {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#card{
   border-style: solid;
-  border-color: #000;
+  border-color: #AC92EC;
   border-width: thick;
   border-radius: 200px;
+  background-color: #E6E9ED;
   margin: 50px;
   height: 200px;
   width: 200px;
+  font-family: 'Poiret One', cursive;
   text-align: center;
   align-items: center;
-  display: inline-block;
+  justify-content: center;
+  display: flex;
+}
+body{
+  background-color: #A0D468;
 }
