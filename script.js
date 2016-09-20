@@ -1,4 +1,24 @@
-//make each card clickable
+
+
+// Variables
+var card = $(".card");
+
+
+// Function to display answers
+function showAnswer(){
+  var myValue = $(this).attr("value");
+  var myHtml = $(this).html();
+
+  $(this).html(myValue);
+  $(this).attr('value', myHtml);
+}
+
+
+
+// Click listener for .card objects
+card.on("click", showAnswer);
+
+
 
 //card turns over in both directions when clicked.
 

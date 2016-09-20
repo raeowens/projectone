@@ -8,9 +8,9 @@ h1{
   justify-content: center;
   flex-wrap: wrap;
 }
-#card{
+.card{
   border-style: solid;
-  border-color: #AC92EC;
+  border-color: ##000;
   border-width: thick;
   border-radius: 200px;
   background-color: #E6E9ED;
@@ -23,6 +23,7 @@ h1{
   justify-content: center;
   display: flex;
 }
+
 body{
-  background-color: #A0D468;
+  background-color: #ccc;
 }
