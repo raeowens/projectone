@@ -25,25 +25,23 @@ function nextCard(){
   currentCard++
   card.eq(currentCard).show()
 }
-
+function previousCard(){
+  card.hide()
+  currentCard--
+  card.eq(currentCard).show()
+}
 
 // Click listener for .card objects
 card.on("click", showAnswer);
-button.on("click", nextCard);
+$("#next").on("click", nextCard);
+$("#back").on("click", previousCard);
+
+
+/*
+button.on("click", previousCard)
+*/
 
 //if last card is clicked
 
 
 //tell user they are at the end
-
-/*
-$('button').on('click', showAlert(){
-    $alert('E N D')
-});
-*/
-
-//user can keep track of right and wrong cards somehow.
-
-//any flashcards marked correct should disappear.
-
-//incorrect flashcards should reappear until they are right.
